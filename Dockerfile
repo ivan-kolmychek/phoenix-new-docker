@@ -8,4 +8,6 @@ RUN mix local.hex \
   && mix archive.install --force \
     https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
 
+USER user
+
 CMD ['iex']
