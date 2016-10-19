@@ -10,4 +10,4 @@ RUN mix local.hex \
 
 USER user
 
-CMD ['iex']
+CMD /bin/bash
