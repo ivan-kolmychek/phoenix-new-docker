@@ -1,4 +1,4 @@
-FROM elixir:1.3
+FROM elixir:1.5
 
 ENV MIX_ARCHIVES="/mix_archives"
 
